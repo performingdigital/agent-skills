@@ -1,11 +1,6 @@
 ---
 name: commit
 description: Stage and commit changes with a concise, descriptive commit message
-author: giorgiopogliani
-version: "1.0"
-tags:
-  - git
-  - workflow
 ---
 
 ## Steps

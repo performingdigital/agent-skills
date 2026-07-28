@@ -1,10 +1,6 @@
 ---
-name: check-backlog
+name: check-issues
 description: Analys the project, find all opportunities and create issues markdown files
-author: giorgiopogliani
-version: "1.0"
-tags:
-  - maintainability
 ---
 
 ## Steps

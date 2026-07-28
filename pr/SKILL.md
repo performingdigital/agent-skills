@@ -1,12 +1,6 @@
 ---
 name: pr
 description: Create a pull request for the current branch against develop and open it in the browser
-author: giorgiopogliani
-version: "1.0"
-tags:
-  - git
-  - workflow
-  - github
 ---
 
 ## Steps

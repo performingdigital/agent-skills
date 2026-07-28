@@ -1,10 +1,6 @@
 ---
-name: discuss-issues
+name: discuss-issue
 description: Analys the given number of the issue and present possible solutions
-author: giorgiopogliani
-version: "1.0"
-tags:
-  - maintainability
 ---
 
 
