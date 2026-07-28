@@ -55,9 +55,9 @@ Follow version-specific conventions reading from the composer.json and package.j
 - Put behavior with the model, value object, or domain component that owns the concept. Do not add methods solely because a caller needs them; use the relevant entity, value object, query object, utility, or domain component instead.
 - Use `php artisan make:* --no-interaction` to create Laravel files, and `make:class` for generic PHP classes. Do not create standalone verification scripts when tests can verify the behavior.
 
-## Static Analysis and Formatting
-- use `mago fmt` to format the files
-- use `mago analyze <path>` to run a static analysis. avoid using `mago analyze` without a path, output will be usually overwhelming and impossible to reason about it.
+## Static Analysis and Formatting PHP
+- use `mago fmt` to format the PHP files
+- use `mago analyze <path>` to run a static analysis on php files. avoid using `mago analyze` without a path, output will be usually overwhelming and impossible to reason about it.
 - use `mago lint --fix` to lint and fix safe things
 - Forget about `pint` use `mago`
 - Mago is still in early development although stable some bugs are possible.
