@@ -108,6 +108,7 @@ final class Seconds extends Data
 - Prefer Eloquent models and typed relationships. Eager-load to prevent N+1 queries, use `Model::query()` instead of `DB::` unless a query is genuinely complex, and use the query builder only for complex queries.
 - Define casts in `casts()` when consistent with nearby models. Use `HasUuids` for UUID primary keys and the project `Searchable` trait for searchable models. Use environment variables only in config files.
 - When creating models, create useful factories and seeders. For API work, follow project convention; otherwise prefer versioned Eloquent API Resources. 
+- Prefer `match (true) { ... }` for ordered, mutually exclusive conditions that directly return a value or throw. Use if for stateful control flow, side effects, or conditions that are clearer as guards.
 
 ## Frontend and Inertia
 
